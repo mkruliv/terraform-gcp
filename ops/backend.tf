@@ -2,6 +2,6 @@ terraform {
   backend "gcs" {
     bucket      = "mt-test-tfstates"
     prefix      = "test"
-    credentials = "../tf-example.json"
+    credentials = "../../tf-example.json"
   }
 }

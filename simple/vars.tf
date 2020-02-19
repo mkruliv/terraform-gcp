@@ -23,7 +23,7 @@ variable region {
 }
 
 variable gcp_credentials {
-  default = "../tf-example.json"
+  default = "../../tf-example.json"
 }
 
 variable gcp_project {
