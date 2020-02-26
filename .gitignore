@@ -27,3 +27,4 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+test/pkg/linux_amd64/github.com/gruntwork-io/terratest/modules/terraform.a
