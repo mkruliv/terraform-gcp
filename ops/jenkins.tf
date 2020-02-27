@@ -11,7 +11,7 @@ module "jenkins_instance_template" {
   region              = var.region
   project_id          = var.project_id
   subnetwork          = "default"
-  service_account     = {email = module.service_account.iam_email, scopes=["compute-full", "service-control", "storage-full"]}
+  service_account     = {email = module.service_account.iam_email, scopes=["service-control", "storage-full"]}
   source_image_family = "ubuntu-1804-lts"
   metadata = {
     startup-script = <<SCRIPT

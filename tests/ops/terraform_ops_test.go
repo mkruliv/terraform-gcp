@@ -5,10 +5,10 @@ import (
 	"github.com/gruntwork-io/terratest/modules/terraform"
 )
 
-func TestTerraformSimple(t *testing.T) {
+func TestTerraformOps(t *testing.T) {
 	terraformOptions := &terraform.Options{
 		// website::tag::1:: Set the path to the Terraform code that will be tested.
-		TerraformDir: "../simple",
+		TerraformDir: "../../ops",
 	}
 
 	// website::tag::4:: Clean up resources with "terraform destroy" at the end of the test.
